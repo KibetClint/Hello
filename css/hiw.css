@@ -1,0 +1,455 @@
+body{
+    padding: 0%;
+    margin: 0%;
+}
+
+.page1{
+    height: 100vh;
+    width: 100%;
+
+}
+
+.navbar{
+    height: 10%;
+    width: 100%;
+}
+
+.display{
+    height: 50%;
+    width: 100%;
+    background-image: url(/Images/Display.webp);
+    background-size: cover;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+}
+
+.list{
+    list-style: none;
+    display: flex;
+    justify-content: flex-end;
+    text-decoration: none;
+}
+
+.list li{
+    font-size: 20px;
+    margin: 1%;
+    margin-top: 1.8%;
+}
+
+.list button{
+    height: 40px;
+    width: 7%;
+    border-radius: 40px;
+    background-color: red;
+    border: none;
+    margin: 1%;
+    margin-top: 1.1%;
+    color: white;
+    font-size: 18px;
+    font-weight: 800;
+    
+}
+
+.display h1{
+    font-size: 67px;
+    color: black;
+}
+
+.display p{
+    font-size: 30px;
+    text-align: center;
+
+}
+
+.step1{
+    height: 40%;
+    width: 100%;
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: center;
+}
+
+.step1 .box1{
+    height: 90%;
+    width: 30%;
+    background-image: url(/Images/Select_your_box.webp);
+    background-size: cover;
+    border-radius: 10px;
+}
+
+.step1 .steps{
+    height: 90%;
+    width: 40%;
+    margin-left: 7%;
+}
+
+.steps p{
+    font-size: 20px;
+}
+
+.step1 button{
+    height: 20%;
+    width: 30%;
+    border-radius: 20px;
+    border: none;
+    background-color: red;
+    color: white;
+    font-size: 15px;
+    font-weight: 700;
+}
+
+
+.page2{
+    height: 90vh;
+    width: 100%;
+}
+
+.page2 .step2{
+    height: 50%;
+    width: 100%;
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+}
+ .step2 .box2{
+    height: 80%;
+    width: 30%;
+    background-image: url(/Images/variety-hi.webp);
+    background-size: cover;
+    border-radius: 10px;
+    margin: 2%;
+    margin-right: 10%;
+    margin-top: 5%;
+}
+
+.step2 .steps{
+    height: 90%;
+    width: 40%;
+    margin-right: 2%;
+}
+
+.page2 .step3{
+    height: 50%;
+    width: 100%;
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+}
+
+.step3 .box3{
+    height: 80%;
+    width: 30%;
+    background-image: url(/Images/step-3.webp);
+    background-size: cover;
+    margin: 5%;
+    margin-right: 10%;
+    border-radius: 10px;
+}
+
+.step3 .steps{
+    height: 80%;
+    width: 40%;
+    /* margin: 1%; */
+    margin-right: 4%;
+}
+
+
+.page3{
+    height: 100vh;
+    width: 100%;
+}
+
+.page3 .step4{
+    height: 50%;
+    width: 100%;
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+}
+ .step4 .box4{
+    height: 80%;
+    width: 30%;
+    background-image: url(/Images/variety-hi.webp);
+    background-size: cover;
+    border-radius: 10px;
+    margin: 2%;
+    margin-right: 8%;
+    margin-top: 5%;
+}
+
+.step4 .steps{
+    height: 90%;
+    width: 40%;
+    margin-right: 2%;
+}
+
+.page3 .step4{
+    height: 50%;
+    width: 100%;
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+}
+
+.step4 .box4{
+    height: 80%;
+    width: 30%;
+    background-image: url(/Images/Cook_eat_enjoy_-_How_it_works.webp);
+    background-size: cover;
+    margin: 5%;
+    margin-right: 11%;
+    border-radius: 10px;
+}
+
+.step4 .steps{
+    height: 80%;
+    width: 40%;
+}
+
+.page3 .questions{
+    height: 10%;
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+.extras{
+    height: 40%;
+    width: 100%;
+    display: flex;
+    flex-direction: row;
+}
+
+.extras .q1{
+    height: 50%;
+    width: 50%;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+
+}
+
+select{
+    height: 40%;
+    width: 40%;
+    margin: 2%;
+    border-radius: 7px;
+}
+
+.extras .q2{
+    height: 50%;
+    width: 50%;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    
+}
+
+
+.option{
+    height: 20px;
+    width: 10px;
+}
+
+.page3 button{
+    height: 50px;
+    width: 20%;
+    margin-left: 30%;
+    margin-bottom: 70%;
+}
+.page4{
+    height: 100vh;
+    width: 100%;
+    background-color: rgb(224, 223, 223);
+}
+
+.page4 .chef{
+    height: 10%;
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+.page4 h1{
+    font-size: 40px;
+    color: red;
+    font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+    margin: 3%;
+
+}
+
+.page4 .contactus{
+    height: 30%;
+    width: 100%;
+    display: flex;
+    flex-direction: row;
+    align-items: baseline;
+    justify-content: center;
+    
+}
+
+.con1{
+    height: 60%;
+    width: 21%;
+}
+
+.con1 li{
+    margin-left: 2%;
+}
+
+.con2{
+    height: 60%;
+    width: 10%;
+}
+
+.con2 li{
+    margin-left: 2%;
+}
+
+.con3{
+    height: 60%;
+    width: 20%;
+}
+
+.con3 li{
+    margin-left: 3%;
+}
+
+.con4{
+    height: 60%;
+    width: 20%;
+}
+
+.con4{
+    text-align: end;
+}
+.con4 img{
+    height: 30%;
+    width: 30%;
+    border-radius: 7px;
+}
+
+.con5{
+    height: 60%;
+    width: 20%;
+    margin: 2%;
+}
+
+.contactus li{
+    margin-left: 3%;
+}
+.page4 .contactus h1{
+    font-size: 20px;
+    color: black;
+}
+
+.page4 .contactus li{
+    font-size: 20px;
+    list-style: none;
+    
+}
+
+.page4 .contactus p{
+    font-size: 20px;
+    text-align: end;
+}
+
+.page4 .reviews{
+    height: 40%;
+    width: 100%;
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+}
+
+
+.reviews.newsletter{
+    height: 40%;
+    width: 100%;
+}
+.con6{
+    height: 40%;
+    width: 20%;
+    align-items: baseline;
+    margin-right: 25%;
+}
+
+.con6 input{
+    height: 40px;
+    width: 40%;
+    margin : none;
+    border-radius: 7px;
+    border: none;
+}
+
+.con6 button{
+    height: 40px;
+    width: 40%;
+    background-color: red;
+    border: none;
+    
+}
+
+
+.con7{
+    height: 40%;
+    width: 20%;
+    align-items: baseline;
+    margin-top: 01%;
+}
+.con8{
+    height: 40%;
+    width: 20%;
+    display: inline;
+    align-items: baseline;
+    margin-bottom: 0%;
+    margin-left: 10%;
+    
+}
+
+.con8 h1{
+    font-size: 20px;
+}
+
+.con8 p{
+    text-align: start;
+    display: flex;
+    flex-direction: column;
+    margin-left: 3%;
+}
+
+.reviews h1{
+    font-size: 20px;
+    align-items: baseline;
+    color: black;
+}
+
+.final{
+    height: 10%;
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    
+}
+
+.final h1{
+    font-size: 20px;
+    /* margin-top: 30%; */
+}
+
